@@ -1,0 +1,82 @@
+name: prices
+
+# Svaki dan oko 06:00 po beogradskom vremenu (04:00 UTC leti) pravi cene.sqlite.gz iz zvaničnih
+# cenovnika (data.gov.rs) i objavljuje ga kao asset Release-a "db", odakle ga aplikacija skida.
+# Ponedeljkom (ili ručno) prvo osveži spisak izvora (discover) i radnje sa OSM-a.
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+    inputs:
+      refresh_sources:
+        description: "Osveži spisak cenovnika i radnje (discover + OSM)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: pipeline
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Testovi
+        run: |
+          pip install pytest
+          python -m pytest -q
+
+      - name: Nedeljno osvežavanje izvora?
+        id: weekly
+        run: |
+          if [ "${{ inputs.refresh_sources }}" = "true" ] || [ "$(date -u +%u)" = "1" ]; then
+            echo "refresh=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Discover (ceo katalog data.gov.rs)
+        if: steps.weekly.outputs.refresh == 'true'
+        run: python -m cene.discover -o data/sources.json --workers 24
+
+      - name: Radnje sa OSM-a
+        if: steps.weekly.outputs.refresh == 'true'
+        # Overpass ume da bude preopterećen; tada ostaje prošlonedeljni stores.json (vidi se u logu)
+        continue-on-error: true
+        run: python -m cene.stores_osm -o data/stores.json
+
+      - name: Slike sa maxi.rs
+        if: steps.weekly.outputs.refresh == 'true'
+        # kad maxi.rs promeni API, ostaju prošlonedeljne slike (vidi se u logu)
+        continue-on-error: true
+        run: python -m cene.maxi_images -o data/images_maxi.json
+
+      - name: Baza
+        run: python -m cene.build_db
+
+      - name: Objavi Release "db"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view db >/dev/null 2>&1 || \
+            gh release create db --title "Baza cena" --notes "Automatski se osvežava svaki dan." --latest=false
+          gh release upload db dist/cene.sqlite.gz dist/manifest.json --clobber
+
+      - name: Sačuvaj osvežene izvore
+        if: steps.weekly.outputs.refresh == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sources.json data/stores.json data/images_maxi.json
+          git diff --cached --quiet || { git commit -m "Osveženi izvori, radnje i slike"; git push; }
