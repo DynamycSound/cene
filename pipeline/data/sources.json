@@ -1,5 +1,32 @@
 [
  {
+  "dataset_id": "6ad4c219024e6f2e2b3576dd",
+  "dataset": "Ценовници производа према Правилнику о условима, садржају и начину објављивања ценовника - Aksa d.o.o",
+  "org_id": "69f1bb54159cb0f7c8cd2d14",
+  "org": "Aksa d.o.o",
+  "resource_id": "dfe10638-1bf6-4be4-8187-748fcbed8094",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-aksa-d-o-o/20261019-060626/cene-proizvoda-aksa-19-10-2026.csv",
+  "last_modified": "2026-10-19T06:06:28.210000+00:00",
+  "columns": [
+   "KATEGORIJA",
+   "NAZIV KATEGORIJE",
+   "Naziv proizvoda",
+   "Robna marka",
+   "Barkod proizvoda",
+   "Jedinica mere",
+   "Naziv trgovca - formata",
+   "Datum cenovnika",
+   "Redovna cena",
+   "Cena po jedinici mere",
+   "Snižena cena",
+   "Datum početka sniženja",
+   "Datum kraja sniženja",
+   "Stopa PDV",
+   "VRSTA_CENOVNIKA"
+  ],
+  "delimiter": ";"
+ },
+ {
   "dataset_id": "6acca84dc60236a1e2681a41",
   "dataset": "Cenovnici proizvoda prema Pravilniku o uslovima, sadržaju i načinu objavljivanja cenovnika - Planeta Sport doo",
   "org_id": "6acccfc0ee7318ab2c797383",
@@ -60,7 +87,7 @@
   "org": "Lilly Drogerie",
   "resource_id": "2652429c-44e8-405b-b22e-12278eb59b96",
   "url": "https://mis.lilly.rs/cene_proizvoda_Lilly_Drogerie.csv",
-  "last_modified": "2026-10-08T12:16:32.588000+00:00",
+  "last_modified": "2026-10-19T07:51:23.364000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV_KATEGORIJE",
@@ -113,8 +140,8 @@
   "org_id": "6a96d09a00be0f4378a4e49c",
   "org": "Soulfood doo Beograd",
   "resource_id": "4778378e-cb16-42d4-9d81-4bb8867ea12b",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-soulfood-doo-beograd/20261015-115830/cene-proizvoda-soulfood-d.o.o..csv",
-  "last_modified": "2026-10-15T11:58:33.790000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-soulfood-doo-beograd/20261019-071551/cene-proizvoda-soulfood-d.o.o..csv",
+  "last_modified": "2026-10-19T07:15:53.060000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -140,8 +167,8 @@
   "org_id": "6a969722f7c49d15c159cf17",
   "org": "METRO Cash&Carry doo Beograd",
   "resource_id": "c1d29f13-5087-4b60-81d4-22614cb0f90e",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-metro/20261015-051933/cene-proizvoda-metro.csv",
-  "last_modified": "2026-10-15T05:19:33.077000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-metro/20261019-051936/cene-proizvoda-metro.csv",
+  "last_modified": "2026-10-19T05:19:36.480000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -221,8 +248,8 @@
   "org_id": "6a8f143a8001a7c144dd92af",
   "org": "Industrija mesa Matijević",
   "resource_id": "f5ebca1f-a774-4b98-bfd8-3d6eba94607b",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-industrija-mesa-matijevic/20261015-040651/cene-proizvoda-industrija-mesa-matijevic-d.o.o.-novi-sad.csv",
-  "last_modified": "2026-10-15T04:06:52.915000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-industrija-mesa-matijevic/20261019-041129/cene-proizvoda-industrija-mesa-matijevic-d.o.o.-novi-sad.csv",
+  "last_modified": "2026-10-19T04:11:31.364000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -302,8 +329,8 @@
   "org_id": "6a8de89bf0093af55edd383c",
   "org": "RIČ doo Prokuplje",
   "resource_id": "4ffcf9a0-e1b7-4ba6-b79e-71ffe5a730a0",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-ric-doo-prokuplje/20261014-204133/cene-proizvoda-ric.csv",
-  "last_modified": "2026-10-14T20:41:35.988000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-ric-doo-prokuplje/20261018-205623/cene-proizvoda-ric.csv",
+  "last_modified": "2026-10-18T20:56:24.848000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -464,8 +491,8 @@
   "org_id": "6a95747a5d29aab671edf406",
   "org": "ДРУШТВО ЗА ПРОИЗВОДЊУ ТРГОВИНУ И УСЛУГЕ ЗАМ ДОО ИНЂИЈА",
   "resource_id": "de7ae841-05f4-46fa-8ea0-7960515b6110",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-drustvo-za-proizvodnju-trgovinu-i-usluge-zam-doo-indjija/20261014-045844/cene-proizvoda-zam-d.o.o..csv",
-  "last_modified": "2026-10-14T04:58:46.269000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-drustvo-za-proizvodnju-trgovinu-i-usluge-zam-doo-indjija/20261019-063710/cene-proizvoda-zam-d.o.o..csv",
+  "last_modified": "2026-10-19T06:37:12.448000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -480,7 +507,7 @@
    "Snižena cena",
    "Datum početka sniženja",
    "Datum kraja sniženja",
-   "stopa PDV",
+   "Stopa PDV",
    "VRSTA_CENOVNIKA"
   ],
   "delimiter": ";"
@@ -573,7 +600,7 @@
   "org": "Konovo doo",
   "resource_id": "b2331a11-569c-454b-a608-21ab93763dba",
   "url": "https://konovo.rs/wp-content/uploads/cenovnik/cene_proizvoda_konovo.csv",
-  "last_modified": "2026-10-14T23:41:34.263000+00:00",
+  "last_modified": "2026-10-19T01:07:46.787000+00:00",
   "columns": [
    "Kategorija",
    "\"Naziv kategorije\"",
@@ -599,8 +626,8 @@
   "org_id": "6a3e651570f0350da0facf98",
   "org": "Laguna d.o.o.",
   "resource_id": "20d70393-1449-4958-968a-1aceed268d9d",
-  "url": "https://data.gov.rs/s/resources/cenovnik-laguna-d-o-o/20261015-140037/cenovnik.csv",
-  "last_modified": "2026-10-15T14:00:37.775000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnik-laguna-d-o-o/20261019-092811/cenovnik.csv",
+  "last_modified": "2026-10-19T09:28:11.908000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -625,8 +652,8 @@
   "org_id": "6a32757373fc2089285ba5b6",
   "org": "BRICO S DOO",
   "resource_id": "55cabf49-4241-4d05-87d9-4fb6f4f2992c",
-  "url": "https://data.gov.rs/s/resources/brico-s-doo-cenovnik/20261015-023002/cene-proizvoda-bricos-20261015.csv",
-  "last_modified": "2026-10-15T02:30:02.265000+00:00",
+  "url": "https://data.gov.rs/s/resources/brico-s-doo-cenovnik/20261019-023001/cene-proizvoda-bricos-20261019.csv",
+  "last_modified": "2026-10-19T02:30:01.157000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -785,8 +812,8 @@
   "org_id": "68f73bc7f240807aaff49939",
   "org": "Beltorg DOO",
   "resource_id": "f9249c49-2454-4423-a0d8-8a0e3699b81c",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-beltorg-doo/20261006-132345/cene-proizvoda-beltorg-doo.csv",
-  "last_modified": "2026-10-06T13:23:48.438000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-beltorg-doo/20261015-151104/cene-proizvoda-beltorg-doo.csv",
+  "last_modified": "2026-10-15T15:11:05.611000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -812,8 +839,8 @@
   "org_id": "68f5e3b3b6d8d54345cce9cd",
   "org": "Domaca trgovina doo",
   "resource_id": "9f89b1ed-2229-4fd2-bf1a-baf129f7915c",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-domaca-trgovina-doo/20261015-124516/cene-proizvoda-domaca-trgovina-doo.csv",
-  "last_modified": "2026-10-15T12:45:16.788000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-domaca-trgovina-doo/20261019-084531/cene-proizvoda-domaca-trgovina-doo.csv",
+  "last_modified": "2026-10-19T08:45:31.036000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -839,8 +866,8 @@
   "org_id": "68f61b7610beaa3f00d85ba2",
   "org": "ROS PRODUKT SERVIS",
   "resource_id": "deed396e-4c06-4acf-9cf2-69da3c6b2724",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-ros-produkt-servis/20261013-070819/cene-proizvoda-ros-produkt-servis-doo-6-.csv",
-  "last_modified": "2026-10-13T07:08:22.608000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-ros-produkt-servis/20261019-062821/cene-proizvoda-ros-produkt-servis-doo-7-.csv",
+  "last_modified": "2026-10-19T06:28:24.427000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -1001,8 +1028,8 @@
   "org_id": "68f0bd87323b9450f4f7c868",
   "org": "Aman d.o.o.",
   "resource_id": "90465a2b-ad9f-4c42-b727-4bbc2bcbd7bb",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-aman-d-o-o/20261014-072402/cene-proizvoda-aman-doo.csv",
-  "last_modified": "2026-10-14T07:24:10.280000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-aman-d-o-o/20261019-064934/cene-proizvoda-aman-doo.csv",
+  "last_modified": "2026-10-19T06:49:35.816000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -1017,7 +1044,7 @@
    "Snižena cena",
    "Datum početka sniženja",
    "Datum kraja sniženja",
-   "stopa PDV",
+   "Stopa PDV",
    "VRSTA_CENOVNIKA"
   ],
   "delimiter": ";"
@@ -1082,8 +1109,8 @@
   "org_id": "68f13c6379712f8e362d508a",
   "org": "Tekijanka doo Tekija",
   "resource_id": "fd054336-caae-4641-8fa8-f10d15e8c67a",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-tekijanka-doo-tekija/20261015-062944/cene-proizvoda-tekijanka-d.o.o.-tekija.csv",
-  "last_modified": "2026-10-15T06:29:46.259000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-tekijanka-doo-tekija/20261016-071227/cene-proizvoda-tekijanka-d.o.o.-tekija.csv",
+  "last_modified": "2026-10-16T07:12:30.843000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -1098,7 +1125,7 @@
    "Snižena cena",
    "Datum početka sniženja",
    "Datum kraja sniženja",
-   "stopa PDV",
+   "Stopa PDV",
    "VRSTA_CENOVNIKA"
   ],
   "delimiter": ";"
@@ -1136,8 +1163,8 @@
   "org_id": "68f1e52b82d3fdfbdceeabcc",
   "org": "Medius d.o.o. Nova Pazova",
   "resource_id": "16ccbd70-c9c3-40c6-9ea7-ac4e320b7b47",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-medius-d-o-o-nova-pazova/20261015-074239/cene-proizvoda-medius.csv",
-  "last_modified": "2026-10-15T07:42:43.488000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-medius-d-o-o-nova-pazova/20261019-080222/cene-proizvoda-medius.csv",
+  "last_modified": "2026-10-19T08:02:26.190000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -1271,8 +1298,8 @@
   "org_id": "68f0c2c6e2564c5a9a88d1ed",
   "org": "Veropoulos doo",
   "resource_id": "225fff85-9efb-424f-b70a-48375b07c570",
-  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-veropoulos-doo/20261015-062141/cene-proizvoda-veropoulos-d.o.o..csv",
-  "last_modified": "2026-10-15T06:21:42.651000+00:00",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-veropoulos-doo/20261016-064151/cene-proizvoda-veropoulos-d.o.o..csv",
+  "last_modified": "2026-10-16T06:41:55.171000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",
@@ -1297,9 +1324,36 @@
   "dataset": "Ценовници производа према Правилнику о условима, садржају и начину објављивања ценовника - Fortuna Market DOO",
   "org_id": "68f0ccd416cc6e3ab2f67fea",
   "org": "Fortuna Market DOO",
-  "resource_id": "0b34f8fa-f0cc-482e-9ee9-0a76362719dd",
+  "resource_id": "136f9b9c-5211-4a6b-a607-1066f80daf0b",
   "url": "https://lpfr.blob.core.windows.net/cene/cene_proizvoda_Fortuna%20Market%20d.o.o..csv?sv=2025-07-05&spr=https&st=2026-10-12T12%3A05%3A47Z&se=2040-12-31T13%3A05%3A00Z&sr=b&sp=r&sig=%2BjXm2NOLeevB2bn5LMykqB7VkhtOF5ypn%2BvXlsZaoU0%3D",
-  "last_modified": "2026-10-13T13:43:40.474000+00:00",
+  "last_modified": "2026-10-16T10:42:13.477000+00:00",
+  "columns": [
+   "KATEGORIJA",
+   "NAZIV KATEGORIJE",
+   "Naziv proizvoda",
+   "Robna marka",
+   "Barkod proizvoda",
+   "Jedinica mere",
+   "Naziv trgovca - formata",
+   "Datum cenovnika",
+   "Redovna cena",
+   "Cena po jedinici mere",
+   "Snižena cena",
+   "Datum početka sniženja",
+   "Datum kraja sniženja",
+   "Stopa PDV",
+   "VRSTA_CENOVNIKA"
+  ],
+  "delimiter": ";"
+ },
+ {
+  "dataset_id": "68f0d21516cc6e3ab2f67feb",
+  "dataset": "Ценовници производа према Правилнику о условима, садржају и начину објављивања ценовника - Fortuna Market DOO",
+  "org_id": "68f0ccd416cc6e3ab2f67fea",
+  "org": "Fortuna Market DOO",
+  "resource_id": "facb9275-8973-4a9b-b89d-82bbd9b0bddd",
+  "url": "https://data.gov.rs/s/resources/cenovnici-proizvoda-prema-pravilniku-o-uslovima-sadrzaju-i-nacinu-objavljivanja-cenovnika-fortuna-market-doo/20261016-074046/cene-proizvoda-fortuna-market-d.o.o..csv",
+  "last_modified": "2026-10-16T10:42:18.208000+00:00",
   "columns": [
    "KATEGORIJA",
    "NAZIV KATEGORIJE",

@@ -2003,6 +2003,16 @@
 "chain": "aroma",
 "format": null,
 "name": "Арома",
+"address": "",
+"city": "",
+"lat": 44.816645,
+"lon": 20.539702,
+"osm_id": "n14298018487"
+},
+{
+"chain": "aroma",
+"format": null,
+"name": "Арома",
 "address": "Булевар уметности 39",
 "city": "",
 "lat": 44.81376,
@@ -2785,8 +2795,8 @@
 "name": "dm",
 "address": "",
 "city": "",
-"lat": 45.24564,
-"lon": 19.844145,
+"lat": 45.245925,
+"lon": 19.843914,
 "osm_id": "n11129551299"
 },
 {
@@ -3885,8 +3895,8 @@
 "name": "Gigatron",
 "address": "Булевар ослобођења 119",
 "city": "",
-"lat": 45.244913,
-"lon": 19.842593,
+"lat": 45.244989,
+"lon": 19.842718,
 "osm_id": "n12800307801"
 },
 {
@@ -4348,16 +4358,6 @@
 "lat": 45.390565,
 "lon": 20.391504,
 "osm_id": "n5504923318"
-},
-{
-"chain": "gomex",
-"format": null,
-"name": "Gomex",
-"address": "",
-"city": "",
-"lat": 45.376531,
-"lon": 20.296602,
-"osm_id": "n5620590921"
 },
 {
 "chain": "gomex",
@@ -6365,16 +6365,6 @@
 "name": "IDEA",
 "address": "",
 "city": "",
-"lat": 44.787852,
-"lon": 20.483679,
-"osm_id": "n6780758894"
-},
-{
-"chain": "idea",
-"format": "IDEA",
-"name": "IDEA",
-"address": "",
-"city": "",
 "lat": 44.785557,
 "lon": 20.467944,
 "osm_id": "n6781091685"
@@ -7395,16 +7385,6 @@
 "name": "IDEA Organic",
 "address": "",
 "city": "",
-"lat": 44.813943,
-"lon": 20.467763,
-"osm_id": "n5162696302"
-},
-{
-"chain": "idea",
-"format": "IDEA",
-"name": "IDEA Organic",
-"address": "",
-"city": "",
 "lat": 44.795296,
 "lon": 20.443491,
 "osm_id": "n9461486951"
@@ -8372,16 +8352,6 @@
 {
 "chain": "idea",
 "format": "IDEA",
-"name": "IDEA",
-"address": "Вишњички венац 73A",
-"city": "Београд",
-"lat": 44.816745,
-"lon": 20.539975,
-"osm_id": "w440105715"
-},
-{
-"chain": "idea",
-"format": "IDEA",
 "name": "IDEA Organic",
 "address": "Мутапова 42",
 "city": "Београд",
@@ -8423,21 +8393,21 @@
 "chain": "idea",
 "format": "RODA",
 "name": "Roda",
-"address": "Заплањска 32",
-"city": "Београд",
-"lat": 44.774643,
-"lon": 20.490549,
-"osm_id": "n3881618754"
-},
-{
-"chain": "idea",
-"format": "RODA",
-"name": "Roda",
 "address": "Ђорђа Станојевића 35",
 "city": "Београд",
 "lat": 44.809676,
 "lon": 20.396852,
 "osm_id": "w199962127"
+},
+{
+"chain": "idea",
+"format": "RODA",
+"name": "Roda",
+"address": "Заплањска 32",
+"city": "Београд",
+"lat": 44.774664,
+"lon": 20.490439,
+"osm_id": "w1568979880"
 },
 {
 "chain": "idea",
@@ -8968,6 +8938,16 @@
 "lat": 44.271248,
 "lon": 19.890937,
 "osm_id": "n14166931804"
+},
+{
+"chain": "laguna",
+"format": null,
+"name": "Лагуна",
+"address": "",
+"city": "",
+"lat": 43.317614,
+"lon": 21.89477,
+"osm_id": "n14297226777"
 },
 {
 "chain": "laguna",
@@ -11693,6 +11673,16 @@
 "chain": "lilly",
 "format": null,
 "name": "Lilly",
+"address": "",
+"city": "",
+"lat": 44.774696,
+"lon": 20.489943,
+"osm_id": "w1568979873"
+},
+{
+"chain": "lilly",
+"format": null,
+"name": "Lilly",
 "address": "Маријане Грегоран 60",
 "city": "Београд",
 "lat": 44.812854,
@@ -12685,8 +12675,8 @@
 "name": "Maxi",
 "address": "",
 "city": "",
-"lat": 44.810864,
-"lon": 20.428798,
+"lat": 44.810804,
+"lon": 20.42858,
 "osm_id": "n2085901387"
 },
 {
@@ -15513,16 +15503,6 @@
 "chain": "maxi",
 "format": "Shop and Go",
 "name": "Shop&Go",
-"address": "",
-"city": "",
-"lat": 44.813941,
-"lon": 20.540322,
-"osm_id": "n5237928023"
-},
-{
-"chain": "maxi",
-"format": "Shop and Go",
-"name": "Shop&Go",
 "address": "Крушевачка 35",
 "city": "",
 "lat": 44.78709,
@@ -15618,16 +15598,6 @@
 "lat": 44.808564,
 "lon": 20.416408,
 "osm_id": "n13866264466"
-},
-{
-"chain": "maxi",
-"format": "Shop and Go",
-"name": "Shop&Go",
-"address": "",
-"city": "",
-"lat": 45.237777,
-"lon": 19.831681,
-"osm_id": "w147096112"
 },
 {
 "chain": "maxi",
@@ -18812,6 +18782,16 @@
 {
 "chain": "tehnomanija",
 "format": null,
+"name": "Tehnomanija",
+"address": "",
+"city": "",
+"lat": 45.245167,
+"lon": 19.844259,
+"osm_id": "n14297399101"
+},
+{
+"chain": "tehnomanija",
+"format": null,
 "name": "Техноманија",
 "address": "",
 "city": "",
@@ -19832,6 +19812,16 @@
 {
 "chain": "trnava",
 "format": null,
+"name": "Trnava Romet",
+"address": "Горњомилановачка 80",
+"city": "Kragujevac",
+"lat": 44.026711,
+"lon": 20.858573,
+"osm_id": "w1569507754"
+},
+{
+"chain": "trnava",
+"format": null,
 "name": "Supereta",
 "address": "Атинска 103a",
 "city": "Крагујевац",
@@ -20055,8 +20045,8 @@
 "name": "Univerexport",
 "address": "Булевар ослобођења 119",
 "city": "",
-"lat": 45.246353,
-"lon": 19.843674,
+"lat": 45.246257,
+"lon": 19.843679,
 "osm_id": "n6746543979"
 },
 {
