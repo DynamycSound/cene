@@ -2795,8 +2795,8 @@
 "name": "dm",
 "address": "",
 "city": "",
-"lat": 45.245925,
-"lon": 19.843914,
+"lat": 45.245604,
+"lon": 19.844131,
 "osm_id": "n11129551299"
 },
 {
@@ -3895,8 +3895,8 @@
 "name": "Gigatron",
 "address": "Булевар ослобођења 119",
 "city": "",
-"lat": 45.244989,
-"lon": 19.842718,
+"lat": 45.245013,
+"lon": 19.842669,
 "osm_id": "n12800307801"
 },
 {
@@ -5782,6 +5782,16 @@
 {
 "chain": "gomex",
 "format": null,
+"name": "gomex",
+"address": "",
+"city": "",
+"lat": 45.265031,
+"lon": 19.844144,
+"osm_id": "n13615024342"
+},
+{
+"chain": "gomex",
+"format": null,
 "name": "Gomex",
 "address": "Николе Вујачића 12",
 "city": "Lazarevac",
@@ -6503,6 +6513,16 @@
 "chain": "idea",
 "format": "IDEA",
 "name": "IDEA",
+"address": "Хиландарска 2",
+"city": "",
+"lat": 45.257404,
+"lon": 19.838052,
+"osm_id": "n8636425517"
+},
+{
+"chain": "idea",
+"format": "IDEA",
+"name": "IDEA",
 "address": "Алексе Маркишића 2",
 "city": "",
 "lat": 43.644871,
@@ -7083,7 +7103,7 @@
 "chain": "idea",
 "format": "IDEA",
 "name": "IDEA",
-"address": "",
+"address": "Шумадијска 12",
 "city": "",
 "lat": 45.259468,
 "lon": 19.850772,
@@ -7275,16 +7295,6 @@
 "name": "IDEA",
 "address": "",
 "city": "",
-"lat": 45.242207,
-"lon": 19.80398,
-"osm_id": "n13971341217"
-},
-{
-"chain": "idea",
-"format": "IDEA",
-"name": "IDEA",
-"address": "",
-"city": "",
 "lat": 44.863203,
 "lon": 20.640824,
 "osm_id": "n13973066618"
@@ -7458,16 +7468,6 @@
 "lat": 43.90309,
 "lon": 20.35015,
 "osm_id": "n6531908675"
-},
-{
-"chain": "idea",
-"format": "IDEA",
-"name": "IDEA Super",
-"address": "Хиландарска 2",
-"city": "",
-"lat": 45.257404,
-"lon": 19.838052,
-"osm_id": "n8636425517"
 },
 {
 "chain": "idea",
@@ -10165,8 +10165,8 @@
 "name": "Lilly",
 "address": "Васе Чарапића 9",
 "city": "",
-"lat": 44.817693,
-"lon": 20.458853,
+"lat": 44.817738,
+"lon": 20.458835,
 "osm_id": "n6096891386"
 },
 {
@@ -12605,8 +12605,8 @@
 "name": "Maxi",
 "address": "",
 "city": "",
-"lat": 44.817153,
-"lon": 20.458901,
+"lat": 44.817127,
+"lon": 20.45888,
 "osm_id": "n1124739233"
 },
 {
@@ -12968,6 +12968,16 @@
 "lat": 46.100947,
 "lon": 19.665416,
 "osm_id": "n4976138825"
+},
+{
+"chain": "maxi",
+"format": "Maxi",
+"name": "Maxi",
+"address": "Ратка Митровића 101a",
+"city": "",
+"lat": 44.755188,
+"lon": 20.42427,
+"osm_id": "n5022786998"
 },
 {
 "chain": "maxi",
@@ -14663,6 +14673,16 @@
 "chain": "maxi",
 "format": "Maxi",
 "name": "Maxi",
+"address": "",
+"city": "",
+"lat": 43.62635,
+"lon": 20.898974,
+"osm_id": "n14300037175"
+},
+{
+"chain": "maxi",
+"format": "Maxi",
+"name": "Maxi",
 "address": "Булевар маршала Толбухина 1",
 "city": "",
 "lat": 44.830731,
@@ -14828,6 +14848,16 @@
 "lat": 45.252385,
 "lon": 19.803247,
 "osm_id": "w271560605"
+},
+{
+"chain": "maxi",
+"format": "Maxi",
+"name": "Maxi",
+"address": "Мајска 28",
+"city": "",
+"lat": 44.743881,
+"lon": 20.501215,
+"osm_id": "w281715564"
 },
 {
 "chain": "maxi",
@@ -15493,16 +15523,6 @@
 "chain": "maxi",
 "format": "Shop and Go",
 "name": "Shop&Go",
-"address": "Ратка Митровића 101a",
-"city": "",
-"lat": 44.755188,
-"lon": 20.42427,
-"osm_id": "n5022786998"
-},
-{
-"chain": "maxi",
-"format": "Shop and Go",
-"name": "Shop&Go",
 "address": "Крушевачка 35",
 "city": "",
 "lat": 44.78709,
@@ -15598,16 +15618,6 @@
 "lat": 44.808564,
 "lon": 20.416408,
 "osm_id": "n13866264466"
-},
-{
-"chain": "maxi",
-"format": "Shop and Go",
-"name": "Shop&Go",
-"address": "Мајска 28",
-"city": "",
-"lat": 44.743881,
-"lon": 20.501215,
-"osm_id": "w281715564"
 },
 {
 "chain": "maxi",
@@ -15918,16 +15928,6 @@
 "lat": 44.739422,
 "lon": 20.422872,
 "osm_id": "w268134545"
-},
-{
-"chain": "maxi",
-"format": "Maxi",
-"name": "Maxi",
-"address": "Борска 43i",
-"city": "Београд",
-"lat": 44.752861,
-"lon": 20.454736,
-"osm_id": "w284596433"
 },
 {
 "chain": "maxi",
@@ -17083,16 +17083,6 @@
 "chain": "mikromarket",
 "format": null,
 "name": "Микромаркет",
-"address": "Максима Горког 12",
-"city": "",
-"lat": 45.249947,
-"lon": 19.847444,
-"osm_id": "n5501788622"
-},
-{
-"chain": "mikromarket",
-"format": null,
-"name": "Микромаркет",
 "address": "Мичуринова 32",
 "city": "",
 "lat": 45.254944,
@@ -17388,6 +17378,16 @@
 "lat": 45.34921,
 "lon": 19.723943,
 "osm_id": "n13931024318"
+},
+{
+"chain": "mikromarket",
+"format": null,
+"name": "Микромаркет",
+"address": "",
+"city": "",
+"lat": 45.186253,
+"lon": 19.803916,
+"osm_id": "n14320508207"
 },
 {
 "chain": "mikromarket",
@@ -18785,8 +18785,8 @@
 "name": "Tehnomanija",
 "address": "",
 "city": "",
-"lat": 45.245167,
-"lon": 19.844259,
+"lat": 45.245244,
+"lon": 19.844335,
 "osm_id": "n14297399101"
 },
 {
@@ -20045,8 +20045,8 @@
 "name": "Univerexport",
 "address": "Булевар ослобођења 119",
 "city": "",
-"lat": 45.246257,
-"lon": 19.843679,
+"lat": 45.246005,
+"lon": 19.843747,
 "osm_id": "n6746543979"
 },
 {
@@ -21048,6 +21048,16 @@
 "lat": 44.025209,
 "lon": 20.923032,
 "osm_id": "n14245978001"
+},
+{
+"chain": "univerexport",
+"format": null,
+"name": "Univerexport",
+"address": "",
+"city": "",
+"lat": 45.1877,
+"lon": 19.804999,
+"osm_id": "n14320508208"
 },
 {
 "chain": "univerexport",
