@@ -12685,8 +12685,8 @@
 "name": "Maxi",
 "address": "Милутина Миланковића 34",
 "city": "",
-"lat": 44.806974,
-"lon": 20.424173,
+"lat": 44.807011,
+"lon": 20.424256,
 "osm_id": "n2092536328"
 },
 {
@@ -19762,6 +19762,16 @@
 {
 "chain": "trnava",
 "format": null,
+"name": "Трнава Промет",
+"address": "Горњомилановачка 80",
+"city": "",
+"lat": 44.026644,
+"lon": 20.858536,
+"osm_id": "w1569507754"
+},
+{
+"chain": "trnava",
+"format": null,
 "name": "Трнава промет",
 "address": "",
 "city": "",
@@ -19785,6 +19795,16 @@
 "name": "Трнава промет",
 "address": "",
 "city": "",
+"lat": 43.980706,
+"lon": 20.829434,
+"osm_id": "n14333781802"
+},
+{
+"chain": "trnava",
+"format": null,
+"name": "Трнава промет",
+"address": "",
+"city": "",
 "lat": 44.037387,
 "lon": 20.910951,
 "osm_id": "w94504335"
@@ -19798,26 +19818,6 @@
 "lat": 43.970897,
 "lon": 20.676167,
 "osm_id": "w1248845063"
-},
-{
-"chain": "trnava",
-"format": null,
-"name": "Трнава промет-Драгобраћа",
-"address": "Краљевачког батаљона 400",
-"city": "Dragobraća",
-"lat": 43.980688,
-"lon": 20.829411,
-"osm_id": "w788163048"
-},
-{
-"chain": "trnava",
-"format": null,
-"name": "Trnava Romet",
-"address": "Горњомилановачка 80",
-"city": "Kragujevac",
-"lat": 44.026711,
-"lon": 20.858573,
-"osm_id": "w1569507754"
 },
 {
 "chain": "trnava",
